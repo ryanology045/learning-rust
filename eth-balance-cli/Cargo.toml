@@ -1,0 +1,10 @@
+[package]
+name = "eth-balance-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ethers = { version = "2.0", features = ["rustls", "ws"] }
+clap  = "4.0"
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
